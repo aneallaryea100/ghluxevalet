@@ -76,7 +76,7 @@ function Contact() {
               <FaFacebook size={24} />
             </a>
             <a
-              href="https://instagram.com/luxevalet"
+              href="https://www.instagram.com/luxevalet.gh"
               target="_blank"
               rel="noopener noreferrer"
               className="text-green-950 hover:text-green-900"

@@ -51,7 +51,7 @@ function FooterSection() {
               <FaTwitter className="text-white hover:text-blue-400 text-2xl transition-all duration-300" />
             </a>
             <a
-              href="https://instagram.com/LuxeValet"
+              href="https://www.instagram.com/luxevalet.gh"
               target="_blank"
               rel="noopener noreferrer"
             >
