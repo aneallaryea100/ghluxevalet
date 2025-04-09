@@ -5,7 +5,7 @@ import {
   FaMapMarkerAlt,
   FaFacebook,
   FaInstagram,
-  FaTwitter,
+  //FaTwitter,
 } from "react-icons/fa";
 
 function Contact() {
@@ -68,7 +68,7 @@ function Contact() {
           {/* Social Media Links */}
           <div className="flex space-x-4">
             <a
-              href="https://facebook.com/luxevalet"
+              href="https://www.facebook.com/share/15zp4J7XgH/?mibextid=wwXIfr"
               target="_blank"
               rel="noopener noreferrer"
               className="text-green-950 hover:text-green-900"
@@ -83,14 +83,14 @@ function Contact() {
             >
               <FaInstagram size={24} />
             </a>
-            <a
+            {/* <a
               href="https://twitter.com/luxevalet"
               target="_blank"
               rel="noopener noreferrer"
               className="text-green-950 hover:text-green-900"
             >
               <FaTwitter size={24} />
-            </a>
+            </a> */}
           </div>
         </div>
 
