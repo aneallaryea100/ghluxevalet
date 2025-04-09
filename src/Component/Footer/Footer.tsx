@@ -1,8 +1,8 @@
 import {
   FaFacebook,
-  FaTwitter,
+  //FaTwitter,
   FaInstagram,
-  FaLinkedin,
+  //FaLinkedin,
   FaPhoneAlt,
   FaEnvelope,
   FaMapMarkerAlt,
@@ -37,19 +37,19 @@ function FooterSection() {
           <h3 className="text-xl font-semibold text-white">Follow Us</h3>
           <div className="mt-3 flex space-x-4">
             <a
-              href="https://facebook.com/LuxeValet"
+              href="https://www.facebook.com/share/15zp4J7XgH/?mibextid=wwXIfr"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaFacebook className="text-white hover:text-blue-500 text-2xl transition-all duration-300" />
             </a>
-            <a
+            {/* <a
               href="https://twitter.com/LuxeValet"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaTwitter className="text-white hover:text-blue-400 text-2xl transition-all duration-300" />
-            </a>
+            </a> */}
             <a
               href="https://www.instagram.com/luxevalet.gh"
               target="_blank"
@@ -57,13 +57,13 @@ function FooterSection() {
             >
               <FaInstagram className="text-white hover:text-pink-500 text-2xl transition-all duration-300" />
             </a>
-            <a
+            {/* <a
               href="https://linkedin.com/company/LuxeValet"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaLinkedin className="text-white hover:text-blue-600 text-2xl transition-all duration-300" />
-            </a>
+            </a> */}
           </div>
         </div>
 
