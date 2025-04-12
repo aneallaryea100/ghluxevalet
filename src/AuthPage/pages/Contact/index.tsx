@@ -5,8 +5,8 @@ import {
   FaMapMarkerAlt,
   FaFacebook,
   FaInstagram,
-  //FaTwitter,
 } from "react-icons/fa";
+import XIcon from "@mui/icons-material/X";
 
 function Contact() {
   const [formData, setFormData] = useState({
@@ -83,14 +83,14 @@ function Contact() {
             >
               <FaInstagram size={24} />
             </a>
-            {/* <a
-              href="https://twitter.com/luxevalet"
+            <a
+              href="https://x.com/luxevaletgh?s=21"
               target="_blank"
               rel="noopener noreferrer"
               className="text-green-950 hover:text-green-900"
             >
-              <FaTwitter size={24} />
-            </a> */}
+              <XIcon />
+            </a>
           </div>
         </div>
 

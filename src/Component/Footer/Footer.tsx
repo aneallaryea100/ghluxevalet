@@ -1,12 +1,12 @@
 import {
   FaFacebook,
-  //FaTwitter,
   FaInstagram,
   //FaLinkedin,
   FaPhoneAlt,
   FaEnvelope,
   FaMapMarkerAlt,
 } from "react-icons/fa";
+import XIcon from "@mui/icons-material/X";
 
 function FooterSection() {
   return (
@@ -43,13 +43,13 @@ function FooterSection() {
             >
               <FaFacebook className="text-white hover:text-blue-500 text-2xl transition-all duration-300" />
             </a>
-            {/* <a
-              href="https://twitter.com/LuxeValet"
+            <a
+              href="https://x.com/luxevaletgh?s=21"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaTwitter className="text-white hover:text-blue-400 text-2xl transition-all duration-300" />
-            </a> */}
+              <XIcon className="text-white hover:text-black text-2xl transition-all duration-300" />
+            </a>
             <a
               href="https://www.instagram.com/luxevalet.gh"
               target="_blank"
